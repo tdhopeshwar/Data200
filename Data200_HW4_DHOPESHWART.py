@@ -23,17 +23,16 @@ Fish = pd.read_csv(dataset_path)
 
 Species = Fish['Species']
 
-Description = Fish ['Weight', 'Height', 'Width', 'Length1', 'Length2', 'Length3']
-
+Weight = Fish ['Weight']
 
 
 
 # Create a bar chart
-plt.bar(Species, Description)
+plt.bar(Species, Weight)
 
 # Add labels and title
 plt.xlabel(Species)
-plt.ylabel(Description)
+plt.ylabel(Avg Weight of Species)
 plt.title('Bar Chart Example')
 
 # Rotate x-axis labels if they are long
@@ -41,4 +40,4 @@ plt.xticks(rotation=45, ha='right')
 
 st.pyplot(plt)
 
-#st.write(Fish [['name', 'petal_length']].rename(columns={'name': #'categories'}))
+
