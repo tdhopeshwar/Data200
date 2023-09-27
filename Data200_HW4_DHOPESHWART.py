@@ -34,5 +34,8 @@ plt.xticks(rotation=45, ha='right')
 
 st.pyplot(plt)
 
+st.write(" Analysis:
+        We can observe that the pike fish are the heaviest, making them the largest. Smelt, roach, and parkki are the smallest fishes. ")
+
 st.write("Fish Data Table")
 st.table(Fish[["Species", "Weight"]])
