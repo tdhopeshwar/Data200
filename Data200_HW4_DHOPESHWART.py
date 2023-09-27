@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Title
 st.write('Name: Tanisha Dhopeshwar')
-st.write('Student ID: 017411199')
+st.write('Student ID: 017462497')
 # getting path of directory
 path = os.path.dirname(__file__)
 
@@ -14,12 +14,6 @@ dataset_path = path + '/Fish.csv'
 # reading the dataset
 Fish = pd.read_csv(dataset_path)
 
-#Weight = Fish[‘Weight’]
-#Height = Fish[‘Height’]
-#Width = Fish[‘Width’]
-#Length1 = Fish [‘Length1’]
-#Length2 = Fish[‘Length2’]
-#Length3 = Fish[‘Length3’]
 
 Species = Fish['Species']
 
@@ -31,8 +25,8 @@ Weight = Fish ['Weight']
 plt.bar(Species, Weight)
 
 # Add labels and title
-plt.xlabel(Species)
-plt.ylabel(Avg Weight of Species)
+plt.xlabel('Species')
+plt.ylabel('Avg Weight of Species')
 plt.title('Bar Chart Example')
 
 # Rotate x-axis labels if they are long
