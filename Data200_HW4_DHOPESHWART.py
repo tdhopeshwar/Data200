@@ -34,4 +34,5 @@ plt.xticks(rotation=45, ha='right')
 
 st.pyplot(plt)
 
-st.write(Fish[['Species', 'Weight']].rename(columns={'Weight': 'Avg Weight of Species'}))
+st.write("Fish Data Table")
+st.table(Fish[["Species", "Weight"]])
