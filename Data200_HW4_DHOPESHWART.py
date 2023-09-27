@@ -34,4 +34,4 @@ plt.xticks(rotation=45, ha='right')
 
 st.pyplot(plt)
 
-
+st.write(Fish[['Species', 'Weight']].rename(columns={'Weight': 'Avg Weight of Species'}))
