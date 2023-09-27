@@ -21,9 +21,9 @@ Fish = pd.read_csv(dataset_path)
 #Length2 = Fish[‘Length2’]
 #Length3 = Fish[‘Length3’]
 
-Species = Fish[‘Species’]
+Species = Fish['Species']
 
-Description = Fish [‘Weight’, ‘Height’, ‘Width’, ‘Length1’, ‘Length2’, ‘Length3’]
+Description = Fish ['Weight', 'Height', 'Width', 'Length1', 'Length2', 'Length3']
 
 
 
